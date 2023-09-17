@@ -1,6 +1,6 @@
 # Real-Time Chat App
 
-![Chat App Screenshot](chat_app_screenshot.png)
+![Chat App Screenshot](https://github.com/ivansanguezax/chatLiveJS/blob/481f3a3d096b36fb085f3363ea66c8bad014c644/chat.png)
 
 This is a simple real-time chat application developed using Node.js, Socket.IO, and HTML/CSS.
 
