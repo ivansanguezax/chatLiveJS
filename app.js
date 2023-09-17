@@ -5,7 +5,7 @@ const server = http.createServer(app);
 const morgan = require('morgan');
 
 //configuraciones del servidor
-app.set('port', 1000);
+app.set('port', 3000);
 app.use(morgan('dev'));
 
 app.use(express.static(__dirname +'/public'));
