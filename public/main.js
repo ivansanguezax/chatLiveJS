@@ -11,6 +11,10 @@ $(function(){
 
     $('#message-box').submit(function(e){
         e.preventDefault();
-        chat.append(message.val() + '<br/>');
+        socket.emit('message-del-client', message.val());
+        message.val(''); 
+    });
+    socket.on('message-del-server', function(data){
+        chat.append(data + '<br/>');
     });
 });
