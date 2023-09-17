@@ -1,10 +1,13 @@
 $(function(){
-    console.log('main.js loaded');
 
+    // variables
     var message = $('#chat-message');
+    var chat = $('#chat');
+
+    message.focus();
 
     $('#message-box').submit(function(e){
         e.preventDefault();
-        console.log(message.val());
+        chat.append(message.val() + '<br/>');
     });
 });
