@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+}
+
+
+body{
+    background-color: #3369FF;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.chat{
+    background-color: #ffff;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: 2rem;
+    color: black;
+    padding: 2rem;
+}
+
+.form-group {
+    position: relative;
+    width: 400px;
+}
+
+.message {
+    padding: 1rem;
+    width: calc(100% - 30px); /* Se ajusta el ancho para dejar espacio para el botón */
+    border: none;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 4px 20px 0px rgba(0, 0, 0, 0.13);
+}
+
+.send {
+    position: absolute;
+    right: 10px; /* Ajusta la posición a la derecha según sea necesario */
+    top: 50%; /* Ajusta la posición vertical según sea necesario */
+    transform: translateY(-50%); /* Centra verticalmente el botón */
+    background-color: #3369FF; /* Cambia el color del botón si lo deseas */
+    color: #ffffff; /* Cambia el color del texto del botón si lo deseas */
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-left: 45px; /* Ajusta el espacio para el icono */
+}
+
+i {
+    position: absolute;
+    left: 355px; /* Ajusta la posición del icono según sea necesario */
+    top: 50%; /* Ajusta la posición vertical del icono */
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: white; /* Cambia el color del icono según tus preferencias */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}

@@ -15,6 +15,6 @@ $(function(){
         message.val(''); 
     });
     socket.on('message-del-server', function(data){
-        chat.append(data + '<br/>');
+        chat.append(data + '<br/> <br/>');
     });
 });
