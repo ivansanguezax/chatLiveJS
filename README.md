@@ -1,33 +1,30 @@
-# Chat en Tiempo Real
+# Real-Time Chat App
 
-![Chat en Tiempo Real](chat_app_screenshot.png)
+![Chat App Screenshot](chat_app_screenshot.png)
 
-Este es un simple chat en tiempo real desarrollado utilizando Node.js, Socket.IO y HTML/CSS.
+This is a simple real-time chat application developed using Node.js, Socket.IO, and HTML/CSS.
 
-## Funcionalidades
+## Features
 
-- Permite a los usuarios enviar mensajes en tiempo real.
-- Los mensajes se muestran en el chat sin necesidad de actualizar la página.
-- Interfaz de usuario simple y atractiva.
+- Allows users to send messages in real-time.
+- Messages are displayed in the chat without the need to refresh the page.
+- Simple and attractive user interface.
 
-## Cómo Usar
+## How to Use
 
-1. Clona el repositorio o descarga el código fuente.
-2. Asegúrate de tener Node.js instalado en tu sistema.
-3. Abre una terminal y navega al directorio del proyecto.
-4. Instala las dependencias con el comando `npm install`.
-5. Inicia el servidor con el comando `node server.js`.
-6. Abre tu navegador y ve a `http://localhost:3000`.
-7. ¡Comienza a chatear!
+1. Clone the repository or download the source code.
+2. Make sure you have Node.js installed on your system.
+3. Open a terminal and navigate to the project directory.
+4. Install the dependencies with the command `npm install`.
+5. Start the server with the command `node server.js`.
+6. Open your browser and go to `http://localhost:3000`.
+7. Start chatting!
 
-## Tecnologías Utilizadas
+## Tools we will use 🛠️ 
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=flat&logo=node.js&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black) ![Socket.IO](https://img.shields.io/badge/Socket.IO-%230E83CD.svg?style=flat&logo=socket.io&logoColor=white)
 
-- Node.js
-- Socket.IO
-- HTML/CSS
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ivansanguezax) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ivansanguezax) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/ivansanguezax) 
 
-## Autor
-
-Ivan Sanguezax
-- Sitio Web: [![Website Icon](https://img.shields.io/badge/-Website-ff69b4)](https://ivansanguezax.com)
-- GitHub: [![GitHub Icon](https://img.shields.io/badge/-GitHub-181717)](https://github.com/ivansanguezax)
+---
+⌨️ with ❤️ by [ivansanguezax](https://github.com/ivansanguezax) 😊
